@@ -1,0 +1,15 @@
+students ={
+    "23aj1a4252":"vaishnavi",
+    "23aj1a4247":"Harini",
+    "23aj1a4260":"Trishitha",
+    "23aj1a4235":"Kalyani",
+    "23aj1a4222":"gayatri",
+    "23aj1a4223":"tejaswini"
+}
+present={}
+present["23aj1a4252"]="09.05"
+for rollno, name in students.items():
+    if rollno in present:
+        print(rollno, name, "PRESENT", present[rollno])
+    else:
+        print(rollno, name, "ABSENT", "--")
